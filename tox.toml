@@ -1,0 +1,11 @@
+requires = ["tox>=4"]
+env_list = ["pytest_testing", "unittest"]
+
+[env.pytest_testing]
+description = "Run pytest"
+deps = ["pytest>=8"]
+commands = [["pytest"]]
+
+[env.unittest]
+description = "Run unittest"
+commands = [["python", "-m", "unittest", "test_operations_unittests"]]
