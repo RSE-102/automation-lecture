@@ -18,7 +18,7 @@ def math_operations():
 # Unit test
 def test_find_max(math_operations):
     """
-    Test operations.find_max 
+    Test operations.find_max
     """
     # Expected result
     expected_max = 209
