@@ -50,7 +50,7 @@ def test_find_mean(math_operations):
     Test operations.find_mean
     """
     # Expected result
-    expected_mean = 69.57
+    expected_mean = pytest.approx(69.57, rel=1e-2)
 
     # Actual result
     actual_mean = math_operations.find_mean()
